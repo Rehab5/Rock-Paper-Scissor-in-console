@@ -1,0 +1,30 @@
+@font-face {
+    font-family: roboto;
+    src: url('../webfonts/Roboto-Medium.ttf');
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+section {
+    background-color: #529984;
+    font-family: roboto;
+    height: 100vh;
+}
+
+center {
+    margin-top: 15% !important;
+}
+
+#btn {
+    width: 150px;
+    height: 60px;
+    text-align: center;
+    border-radius: 10px !important;
+    border: none;
+    color: #fff;
+    background-color: #080808b0;
+}
